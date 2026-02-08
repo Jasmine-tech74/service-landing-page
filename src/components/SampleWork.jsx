@@ -1,5 +1,4 @@
 import React from "react";
-import ajMockup from "../assets/aj-mockup.png";
 import zenthMockup from "../assets/zenth-mockup.png";
 import glamBeautyMockup from "../assets/glam-beauty-mockup.png";
 import alHidaayahMockup from "../assets/al-hidaayah-mockup.png";
@@ -27,7 +26,8 @@ export default function SampleWork() {
             </div>
 
             <div className="grid md:grid-cols-2 gap-8 items-center">
-              <div className="order-2">
+              {/* Text Left */}
+              <div className="order-2 md:order-1">
                 <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
                   Al Hidaayah Foods & Collectibles
                 </h3>
@@ -59,7 +59,8 @@ export default function SampleWork() {
                 </a>
               </div>
 
-              <div className="order-1">
+              {/* Image Right */}
+              <div className="order-1 md:order-2">
                 <div className="relative">
                   <div className="bg-gray-800 rounded-t-lg p-2 flex items-center gap-1.5">
                     <div className="w-3 h-3 rounded-full bg-red-500"></div>
@@ -78,36 +79,36 @@ export default function SampleWork() {
             </div>
           </div>
 
-          {/* Project 2: AJ Personal Training (DEMO)
+          {/* Project 2: Glam Beauty Studio (DEMO) */}
           <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl p-8 md:p-12 shadow-xl relative overflow-hidden border border-gray-100">
             <div className="absolute top-4 right-[-45px] bg-amber-500 text-white text-[10px] font-bold px-10 py-1 rotate-45 shadow-sm z-10">
               DEMO CONCEPT
             </div>
 
             <div className="grid md:grid-cols-2 gap-8 items-center">
-              <div className="order-2 md:order-1">
+              {/* Text Right */}
+              <div className="order-2 md:order-2">
                 <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-                  AJ Personal Training
+                  Glam Beauty Studio
                 </h3>
                 <p className="text-gray-600 text-lg mb-6 leading-relaxed">
-                  Professional landing page for a Lagos-based fitness coach.
-                  Clean design with integrated contact form and
-                  mobile-responsive layout.
+                  Elegant service-based website for a beauty salon. Features
+                  luxury aesthetic, service menus, and clear CTAs for bookings.
                 </p>
 
                 <ul className="space-y-3 mb-8">
                   <li className="flex items-center text-gray-700">
                     <span className="text-green-500 mr-3">✓</span>
-                    Mobile responsive design
+                    Service showcase section
                   </li>
                   <li className="flex items-center text-gray-700">
                     <span className="text-green-500 mr-3">✓</span>
-                    Contact form integration
+                    Elegant typography and UI
                   </li>
                 </ul>
 
                 <a
-                  href="https://alex-trains-strong.vercel.app/"
+                  href="https://glam-beauty-studio.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105"
@@ -117,39 +118,42 @@ export default function SampleWork() {
                 </a>
               </div>
 
-              <div className="order-1 md:order-2">
+              {/* Image Left */}
+              <div className="order-1 md:order-1">
                 <div className="relative">
                   <div className="bg-gray-800 rounded-t-lg p-2 flex items-center gap-1.5">
                     <div className="w-3 h-3 rounded-full bg-red-500"></div>
-                    <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
-                    <div className="w-3 h-3 rounded-full bg-green-500"></div>
+                    <div className="w-3 h-3 rounded-full bg-yellow-500/30"></div>
+                    <div className="w-3 h-3 rounded-full bg-green-500/30"></div>
                   </div>
                   <div className="bg-white border-x-4 border-b-4 border-gray-800 rounded-b-lg overflow-hidden shadow-2xl">
                     <img
-                      src={ajMockup}
-                      alt="AJ Personal Training Landing Page"
+                      src={glamBeautyMockup}
+                      alt="Glam Beauty Studio"
                       className="w-full h-auto block"
                     />
                   </div>
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
 
-          {/* Project 4: Zenth Electronics (DEMO) */}
+          {/* Project 3: Zenth Electronics (DEMO) */}
           <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl p-8 md:p-12 shadow-xl relative overflow-hidden border border-gray-100">
             <div className="absolute top-4 right-[-45px] bg-amber-500 text-white text-[10px] font-bold px-10 py-1 rotate-45 shadow-sm z-10">
               DEMO CONCEPT
             </div>
 
             <div className="grid md:grid-cols-2 gap-8 items-center">
+              {/* Text Left */}
               <div className="order-2 md:order-1">
                 <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
                   Zenth Electronics
                 </h3>
                 <p className="text-gray-600 text-lg mb-6 leading-relaxed">
                   A modern, high-conversion e-commerce landing page designed for
-                  a gadget retailer. Focuses on luxury product presentation.
+                  a gadget retailer. Focuses on luxury product presentation and
+                  premium aesthetic.
                 </p>
 
                 <ul className="space-y-3 mb-8">
@@ -174,6 +178,7 @@ export default function SampleWork() {
                 </a>
               </div>
 
+              {/* Image Right */}
               <div className="order-1 md:order-2">
                 <div className="relative">
                   <div className="bg-gray-800 rounded-t-lg p-2 flex items-center gap-1.5">
@@ -194,63 +199,6 @@ export default function SampleWork() {
           </div>
         </div>
 
-        {/* Project 3: Glam Beauty Studio (DEMO) */}
-        <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl p-8 md:p-12 shadow-xl relative overflow-hidden border border-gray-100">
-          <div className="absolute top-4 right-[-45px] bg-amber-500 text-white text-[10px] font-bold px-10 py-1 rotate-45 shadow-sm z-10">
-            DEMO CONCEPT
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div className="order-2">
-              <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-                Glam Beauty Studio
-              </h3>
-              <p className="text-gray-600 text-lg mb-6 leading-relaxed">
-                Elegant service-based website for a beauty salon. Features
-                luxury aesthetic, service menus, and clear CTAs.
-              </p>
-
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-center text-gray-700">
-                  <span className="text-green-500 mr-3">✓</span>
-                  Service showcase section
-                </li>
-                <li className="flex items-center text-gray-700">
-                  <span className="text-green-500 mr-3">✓</span>
-                  Elegant typography and UI
-                </li>
-              </ul>
-
-              <a
-                href="https://glam-beauty-studio.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105"
-              >
-                View Live Site
-                <ExternalLink className="w-4 h-4" />
-              </a>
-            </div>
-
-            <div className="order-1">
-              <div className="relative">
-                <div className="bg-gray-800 rounded-t-lg p-2 flex items-center gap-1.5">
-                  <div className="w-3 h-3 rounded-full bg-red-500"></div>
-                  <div className="w-3 h-3 rounded-full bg-yellow-500/30"></div>
-                  <div className="w-3 h-3 rounded-full bg-green-500/30"></div>
-                </div>
-                <div className="bg-white border-x-4 border-b-4 border-gray-800 rounded-b-lg overflow-hidden shadow-2xl">
-                  <img
-                    src={glamBeautyMockup}
-                    alt="Glam Beauty Studio"
-                    className="w-full h-auto block"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
         {/* Portfolio Status Notification */}
         <div className="text-center mt-16 bg-blue-50 p-8 rounded-2xl border border-blue-100 shadow-sm">
           <p className="text-blue-900 font-bold mb-3 flex items-center justify-center gap-2">
@@ -260,10 +208,9 @@ export default function SampleWork() {
           <div className="text-gray-700 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
             I am currently transitioning from concept demonstrations to live
             client work. Projects labeled as{" "}
-            <strong>'Live Client Project'</strong> are official sites currently
-            serving businesses, while <strong>'Demo Concepts'</strong> serve as
-            a technical gallery to showcase my range and frontend development
-            capabilities.
+            <strong>'Live Client Project'</strong> are official sites serving
+            active businesses, while <strong>'Demo Concepts'</strong> showcase
+            my technical range and frontend capabilities.
           </div>
         </div>
       </div>
