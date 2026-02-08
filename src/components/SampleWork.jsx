@@ -136,63 +136,6 @@ export default function SampleWork() {
             </div>
           </div> */}
 
-          {/* Project 3: Glam Beauty Studio (DEMO) */}
-          <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl p-8 md:p-12 shadow-xl relative overflow-hidden border border-gray-100">
-            <div className="absolute top-4 right-[-45px] bg-amber-500 text-white text-[10px] font-bold px-10 py-1 rotate-45 shadow-sm z-10">
-              DEMO CONCEPT
-            </div>
-
-            <div className="grid md:grid-cols-2 gap-8 items-center">
-              <div className="order-2">
-                <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-                  Glam Beauty Studio
-                </h3>
-                <p className="text-gray-600 text-lg mb-6 leading-relaxed">
-                  Elegant service-based website for a beauty salon. Features
-                  luxury aesthetic, service menus, and clear CTAs.
-                </p>
-
-                <ul className="space-y-3 mb-8">
-                  <li className="flex items-center text-gray-700">
-                    <span className="text-green-500 mr-3">✓</span>
-                    Service showcase section
-                  </li>
-                  <li className="flex items-center text-gray-700">
-                    <span className="text-green-500 mr-3">✓</span>
-                    Elegant typography and UI
-                  </li>
-                </ul>
-
-                <a
-                  href="https://glam-beauty-studio.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105"
-                >
-                  View Live Site
-                  <ExternalLink className="w-4 h-4" />
-                </a>
-              </div>
-
-              <div className="order-1">
-                <div className="relative">
-                  <div className="bg-gray-800 rounded-t-lg p-2 flex items-center gap-1.5">
-                    <div className="w-3 h-3 rounded-full bg-red-500"></div>
-                    <div className="w-3 h-3 rounded-full bg-yellow-500/30"></div>
-                    <div className="w-3 h-3 rounded-full bg-green-500/30"></div>
-                  </div>
-                  <div className="bg-white border-x-4 border-b-4 border-gray-800 rounded-b-lg overflow-hidden shadow-2xl">
-                    <img
-                      src={glamBeautyMockup}
-                      alt="Glam Beauty Studio"
-                      className="w-full h-auto block"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
           {/* Project 4: Zenth Electronics (DEMO) */}
           <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl p-8 md:p-12 shadow-xl relative overflow-hidden border border-gray-100">
             <div className="absolute top-4 right-[-45px] bg-amber-500 text-white text-[10px] font-bold px-10 py-1 rotate-45 shadow-sm z-10">
@@ -245,6 +188,63 @@ export default function SampleWork() {
                       className="w-full h-auto block"
                     />
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Project 3: Glam Beauty Studio (DEMO) */}
+        <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl p-8 md:p-12 shadow-xl relative overflow-hidden border border-gray-100">
+          <div className="absolute top-4 right-[-45px] bg-amber-500 text-white text-[10px] font-bold px-10 py-1 rotate-45 shadow-sm z-10">
+            DEMO CONCEPT
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 items-center">
+            <div className="order-2">
+              <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+                Glam Beauty Studio
+              </h3>
+              <p className="text-gray-600 text-lg mb-6 leading-relaxed">
+                Elegant service-based website for a beauty salon. Features
+                luxury aesthetic, service menus, and clear CTAs.
+              </p>
+
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-center text-gray-700">
+                  <span className="text-green-500 mr-3">✓</span>
+                  Service showcase section
+                </li>
+                <li className="flex items-center text-gray-700">
+                  <span className="text-green-500 mr-3">✓</span>
+                  Elegant typography and UI
+                </li>
+              </ul>
+
+              <a
+                href="https://glam-beauty-studio.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105"
+              >
+                View Live Site
+                <ExternalLink className="w-4 h-4" />
+              </a>
+            </div>
+
+            <div className="order-1">
+              <div className="relative">
+                <div className="bg-gray-800 rounded-t-lg p-2 flex items-center gap-1.5">
+                  <div className="w-3 h-3 rounded-full bg-red-500"></div>
+                  <div className="w-3 h-3 rounded-full bg-yellow-500/30"></div>
+                  <div className="w-3 h-3 rounded-full bg-green-500/30"></div>
+                </div>
+                <div className="bg-white border-x-4 border-b-4 border-gray-800 rounded-b-lg overflow-hidden shadow-2xl">
+                  <img
+                    src={glamBeautyMockup}
+                    alt="Glam Beauty Studio"
+                    className="w-full h-auto block"
+                  />
                 </div>
               </div>
             </div>
