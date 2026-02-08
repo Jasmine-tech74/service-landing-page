@@ -16,7 +16,7 @@ export default function Hero() {
           Clean. Responsive. Ready to Launch.
           <br />
           <span className="text-yellow-400 font-semibold">
-            ₦15,000 fixed price.
+            ₦30,000 fixed price.
           </span>
         </p>
 

@@ -30,7 +30,7 @@ export default function Pricing() {
             </span>
             <div className="mt-4 flex items-center justify-center">
               <span className="text-5xl md:text-6xl font-black text-gray-900">
-                ₦15,000
+                ₦30,000
               </span>
             </div>
             <p className="text-gray-500 mt-2 font-medium">One-time payment</p>
@@ -60,9 +60,17 @@ export default function Pricing() {
           </ul>
 
           {/* CTA Button */}
-          <button className="w-full bg-blue-600 hover:bg-blue-700 text-white text-lg font-bold py-4 rounded-xl transition-all duration-200 transform hover:scale-[1.02] shadow-lg mb-6">
+          <a
+            href="https://wa.me/2347078619193?text=Hi%2C%20I%27m%20interested%20in%20getting%20a%20landing%20page%20for%20my%20business"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block w-85 bg-blue-600 hover:bg-blue-700 text-white text-lg font-bold py-4 rounded-xl transition-all duration-200 transform hover:scale-[1.02] shadow-lg mb-6"
+          >
             Get Started →
-          </button>
+          </a>
+          {/* <a className="w-full bg-blue-600 hover:bg-blue-700 text-white text-lg font-bold py-4 rounded-xl transition-all duration-200 transform hover:scale-[1.02] shadow-lg mb-6">
+            Get Started →
+          </a> */}
 
           {/* Payment Info */}
           <div className="text-center">
