@@ -68,9 +68,6 @@ export default function Pricing() {
           >
             Get Started →
           </a>
-          {/* <a className="w-full bg-blue-600 hover:bg-blue-700 text-white text-lg font-bold py-4 rounded-xl transition-all duration-200 transform hover:scale-[1.02] shadow-lg mb-6">
-            Get Started →
-          </a> */}
 
           {/* Payment Info */}
           <div className="text-center">

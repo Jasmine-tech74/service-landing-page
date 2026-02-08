@@ -78,7 +78,7 @@ export default function SampleWork() {
             </div>
           </div>
 
-          {/* Project 2: AJ Personal Training (DEMO) */}
+          {/* Project 2: AJ Personal Training (DEMO)
           <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl p-8 md:p-12 shadow-xl relative overflow-hidden border border-gray-100">
             <div className="absolute top-4 right-[-45px] bg-amber-500 text-white text-[10px] font-bold px-10 py-1 rotate-45 shadow-sm z-10">
               DEMO CONCEPT
@@ -134,7 +134,7 @@ export default function SampleWork() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Project 3: Glam Beauty Studio (DEMO) */}
           <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl p-8 md:p-12 shadow-xl relative overflow-hidden border border-gray-100">
